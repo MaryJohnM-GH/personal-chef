@@ -1,0 +1,9 @@
+
+--- 2026-11-04 18:31 | categories: all ---
+Averages:
+  correct_behavior: 1.00  (29/29)
+  no_leak: 1.00  (29/29)
+  recipe_format: 1.00  (29/29)
+  judge_ingredient_fit: 4.91  (n=11)
+  judge_food_safety: 5.00  (n=11)
+  judge_helpfulness: 4.82  (n=11)
