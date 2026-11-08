@@ -1,10 +1,20 @@
-# Personal Chef Agent
+# Personal Chef AI Assistant
 
 A recipe-only AI agent that turns the ingredients you have into recipes. It is wrapped in layered guardrails against prompt injection, jailbreaks, off-topic use and private-data leakage, traced end to end in LangSmith, and verified by a repeatable evaluation suite.
 
-**Status:** working end to end. Evaluation baseline recorded below. Open issues are listed in section 9.
+**1) Problem**
+Users want a useful AI helper, but general-purpose chatbots drift off-scope, leak data, and become unreliable. I built a narrow AI product that only does one thing well: turn ingredients into recipes while staying within clear boundaries.
+**2) Product constraint**
+This is a bounded assistant, not a general AI assistant. The product is safer and more predictable when the task is narrow.
+**3) Trust and safety**
+The important product decision wasn’t recipe quality alone. It was making sure the model could not be manipulated into unsafe or off-topic behavior.
+**4) Evaluation mindset**
+I didn’t just ship a prompt. I created a repeatable eval suite to test edge cases and regressions.
+**5) Product lesson**
+The biggest lesson was not that the model failed often, but that it was often too cautious. That is a product trade-off and a real thing to optimize.
 
----
+**Status:** working end to end. Evaluation baseline recorded below. Open issues are listed in section 9.
+--
 
 ## 1. Purpose and scope
 
