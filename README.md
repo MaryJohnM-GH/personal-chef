@@ -18,6 +18,7 @@ I didn’t just ship a prompt. I created a repeatable eval suite to test edge ca
 The biggest lesson was not that the model failed often, but that it was often too cautious. That is a product trade-off and a real thing to optimize.
 
 **Status:** working end to end. Evaluation baseline recorded below. Open issues are listed in section 9.
+
 --
 
 ## 1. Purpose and scope
