@@ -1,6 +1,7 @@
 # Personal Chef AI Assistant
 
 A recipe-only AI agent that turns the ingredients you have into recipes. It is wrapped in layered guardrails against prompt injection, jailbreaks, off-topic use and private-data leakage, traced end to end in LangSmith, and verified by a repeatable evaluation suite.
+You can find a demo [here](https://drive.google.com/file/d/1scxlpbSmApseYmg1qlfP3NfuyuK-K_Z5/view?usp=drive_link)
 
 **1) Problem**
 Users want a useful AI helper, but general-purpose chatbots drift off-scope, leak data, and become unreliable. I built a narrow AI product that only does one thing well: turn ingredients into recipes while staying within clear boundaries.
